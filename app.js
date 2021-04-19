@@ -10,10 +10,10 @@ app.use(
   express.static(join(__dirname, "./dist/static"))
 );
 
-// 响应 route.json 供其他源使用
-app.get("/route.json", (_request, response) => {
+// 响应 mfe-route.json 供其他源使用
+app.get("/mfe-route.json", (_request, response) => {
   response.setHeader("Content-Type", "application/json; charset=UTF-8");
-  response.sendFile(join(__dirname, "./route.json"));
+  response.sendFile(join(__dirname, "./mfe-route.json"));
 });
 
 function indexHtml(_request, response) {
