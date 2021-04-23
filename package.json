@@ -1,6 +1,6 @@
 {
   "name": "mfe-app2",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "dist",
     "src",
     "static",
-    "route.json",
+    "mfe-route.json",
     "app.js",
     "mfe-config.js"
   ],

@@ -1,3 +1,13 @@
 {
-  "domain": ["/app2", "/helloworld"]
+  "domain": ["/helloworld"],
+  "rewrites":[
+    {
+      "from":"/",
+      "to":"index.html"
+    },
+    {
+      "from":["/app2","/gameover","/helloworld"],
+      "to":"test.html"
+    }
+  ]
 }
